@@ -1,0 +1,68 @@
+/* i don't ship but when i do */
+
+html {
+    font-family: oscine,Helvetica, Arial, sans-serif;
+    background-color:#fffed5;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1em;
+}
+
+p, h1 {
+    text-align: center;
+}
+
+p.warning {
+    background-color: #ffd5d5;
+    padding: 0.5em 0;
+    border-radius: 0.5em;
+    color:#ca4646;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul > li.twoup {
+    display:flex;
+    justify-content: center;
+    gap:1em;
+}
+
+ul > li img {
+    width: 100%; height:auto;
+    object-fit:contain;
+    max-height: 800px;
+}
+
+ul > li > p.caption {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+hr {
+    width:100%;
+}
+
+footer {
+    margin-top:2em;
+    margin-bottom:4em;
+}
+
+p.himom {
+    font-size: small;
+    opacity:0.6;
+}
+
+#episode {
+    width:100%;
+    height:auto;
+    object-fit:contain;
+}
